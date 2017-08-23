@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>color picker</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <h1>Slider</h1>
+<canvas id = "wow" class = "pari">
+        </canvas>
+<p>
+  <input type = "button" 
+         value = "light green"
+         onclick = "dogreen()">
+  <input type = "color"
+         value = "#AACC00"
+         id = "clr"
+         oncolor = "dochange()">
+  <input type = "range"
+         min = "10"
+         max = "100"
+         value = "10" id = "slide" 
+         oninput = "doSquare()">
+</p>
+  
+    <script src="js/index.js"></script>
+
+</body>
+</html>

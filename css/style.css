@@ -1,0 +1,18 @@
+h1 {
+  font-family : arial;
+  color : red;
+}
+canvas {
+  width : 100pt;
+  height: 100pt;
+  margin: 10px;
+  border: 1px solid lightblue;
+}
+
+input {
+  font-size: 20pt;
+}
+
+.pari {
+  background-color: orange;
+}
